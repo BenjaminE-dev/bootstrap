@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    <style>
+      body{
+        background-color: rgba(0, 255, 255, 0.171);
+      }
+      .container{
+        background-color: transparent;
+        /* background-image: url(./images/class\ background\ image.png); */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.199);
+        margin-top: 50px;
+        justify-content: space-around;
+        height: 550px;
+background-image:  linear-gradient(to right, white 50%, rgba(2, 2, 44, 0.884) 50%);
+padding-top: 0px;
+padding-bottom: 0px;
+height: 95vh;
+        
+      }
+      .container>div:first-of-type{
+        width: 50%;
+        display: flex;
+        background-color: transparent;
+        justify-content: space-around;
+        /* background-image: url(./images/white\ background.webp); */
+      }
+      .container>div:first-of-type ::placeholder{
+        color: black;
+        gap: 1 !important;
+      }
+      .container>div:last-of-type{
+        width: 50%;
+        justify-content: space-around;
+        background-color: transparent;
+        /* background-image: url(./images/blue\ background.jpg); */
+      }
+      .container>div:last-of-type ::placeholder{
+        color: white;
+      }
+      .form-control{
+        background-color: transparent;
+      }
+      .form-select{
+        background-color: transparent;
+      }
+      .form-check-input{
+        background-color: transparent;
+        border: 1px solid white;
+      }
+      a{
+        background-color: transparent;
+        color: white;
+      }
+      button{
+        background-color: white;
+        color: black;
+        border-radius: 30px;
+      }
+      .text-black{
+        border-radius: 30px;
+        width: 150px;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class=" col-md-5 bg-gradient">
+            <form class=" g-3">
+                <div class="col-12">
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Tittle">
+                  </div>
+                <div class="col-md-6">
+                  <input type="" class="form-control" id="" placeholder="First Name">
+                </div>
+                <div class="col-md-6">
+                  <input type="password" class="form-control" id="inputPassword4" placeholder="Last Name">
+                </div>
+                <div class="col-12">
+                    <select id="inputState" class="form-select">
+                        <option selected>Position</option>
+                        <!-- <option>...</option> -->
+                      </select>
+                </div>
+                <div class="col-12">
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Company">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <input type="text" class="form-control" id="inputCity" placeholder="Business Arena">
+                </div>
+                <div class="col-md-4">
+                  <select id="inputState" class="form-select">
+                    <option selected>Employees</option>
+                    <!-- <option>...</option> -->
+                  </select>
+                </div>
+              </form>
+        </div>
+
+        <div class=" col-md-6 ">
+            <form class="g-3">
+                <div class="mb-2">
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Street + Nr">
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Additional Information">
+                  </div>
+                  <div class="col-md-3">
+                    <input type="" class="form-control" id="" placeholder="Zip Code">
+                  </div>
+                  <div class="col-9">
+                    <select id="inputState" class="form-select">
+                        <option selected>Place</option>
+                        <!-- <option>...</option> -->
+                      </select>
+                </div>
+                <div class="mb-3 text-white">
+                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Country">
+                </div>
+                <div class="col-md-3 text-white">
+                  <input type="" class="form-control" id="" placeholder="Code +">
+                </div>
+                <div class="col-md-9 text-white">
+                  <input type="" class="form-control" id="" placeholder="Phone Number">
+                </div>
+                <div class="col-md-12 text-white">
+                  <input type="" class="form-control" id="" placeholder="Your Email">
+                </div>
+                <div class="col-12 text-white">
+                  <div class="form-check text-white">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      I do not accept the <a href="#"> Terms and Conditions </a> of your site
+                    </label>
+                  </div><br>
+                  <div class="col-12 text-black">
+                    <button type="submit" class="btn btn-white text-black bg-white rounded-5">Register Badge</button>
+                  </div>
+            </form>
+        </div>
+    </di

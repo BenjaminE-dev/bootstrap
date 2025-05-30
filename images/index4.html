@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+          background-color: rgba(0, 255, 255, 0.171);
+        }
+        
+        .form-control{
+          background-color: transparent;
+        }
+        .form-select{
+          background-color: transparent;
+        }
+        .form-check-input{
+          background-color: transparent;
+          border: 1px solid white;
+        }
+        a{
+          background-color: transparent;
+          color: white;
+        }
+        button{
+          background-color: white;
+          color: black;
+          border-radius: 30px;
+        }
+        .text-black{
+          border-radius: 30px;
+          width: 150px;
+        }
+      </style>
+  </head>
+  <body>
+      <div class="container">
+        <div class="row col">
+          <div class="col-6">
+            <form class="w-100">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div class="col-md-6">
+                  <input type="" class="form-control" id="" placeholder="Zip Code">
+                </div>
+                <div class="col-md-6">
+                  <input type="" class="form-control" id="" placeholder="Zip Code">
+                </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+  
+          <div class=" col-6">
+            <form class=" g-3">
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Street + Nr">
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Additional Information">
+                  </div>
+                  <div class="col-md-3">
+                    <input type="" class="form-control" id="" placeholder="Zip Code">
+                  </div>
+                  <div class="col-9">
+                    <select id="inputState" class="form-select">
+                        <option selected>Place</option>
+                        <!-- <option>...</option> -->
+                      </select>
+                </div>
+                <div class="mb-3 text-white">
+                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Country">
+                </div>
+                <div class="col-md-3 text-white">
+                  <input type="" class="form-control" id="" placeholder="Code +">
+                </div>
+                <div class="col-md-9 text-white">
+                  <input type="" class="form-control" id="" placeholder="Phone Number">
+                </div>
+                <div class="col-md-12 text-white">
+                  <input type="" class="form-control" id="" placeholder="Your Email">
+                </div>
+                <div class="col-12 text-white">
+                  <div class="form-check text-white">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      I do not accept the <a href="#"> Terms and Conditions </a> of your site
+                    </label>
+                  </div><br>
+                  <div class="col-12 text-black">
+                    <button type="submit" class="btn btn-white text-black bg-white rounded-5">Register Badge</button>
+                  </div>
+            </form>
+          </div>
+        </div>
+</body>
+</html>
